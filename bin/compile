@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# move to build dir
+cd $1
+
+echo "-----> Installing ruby-odbc"
+wget --quiet http://www.ch-werner.de/rubyodbc/ruby-odbc-0.99998.tar.gz
+mkdir -p vendor/ruby-odbc
+tar -C vendor/ruby-odbc -xvf ruby-odbc-0.99998.tar.gz

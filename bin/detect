@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "ruby-odbc driver"
+exit 0
